@@ -39,7 +39,7 @@ footer p {
     font-family:initial
 }
 
-@media (max-width:770px) {
+@media (max-width:870px) {
 
     .main-size {
         width: 300px;
