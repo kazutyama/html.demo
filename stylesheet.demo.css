@@ -39,3 +39,20 @@ footer p {
     font-family:initial
 }
 
+@media (max-width:670px) {
+
+    .main-size {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+
+    .float {
+        width:100%;
+    }
+
+    .img-size {
+        width: 40px;
+        height: 40px;
+    }
+}
