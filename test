@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.demo.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>これはtableです</title>
+    <link rel="icon" href="demo.icon.jpg">
+</head>
+    <body>
+        <header>
+            <div class="top-wrapper">
+                <h1>グラフ</h1>
+            </div>
+        </header>
+    <div class=main-size>   
+        <table border="1" class="float">
+            <thead>
+                <tr>
+                    <th>ランキング</th>
+                    <th>Web名前</th>
+                    <th>アプリ名</th>
+                    <th>評価</th>
+                    <th>画像</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3" class="a">1</td>
+                    <td rowspan="3" class="google">Google</td>
+                    <td class="j"><a href="https://www.google.co.jp/" class="k">検索</a></td>
+                    <td>良</td>
+                    <td rowspan="3" colspan="3"  ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjzC2JyZDZ_RaWf0qp11K0lcvB6b6kYNMoqtZAQ9hiPZ4cTIOB" class="img-size"></td>                    
+                </tr>
+                <tr>
+                    <td class="j"><a href="https://www.google.co.jp/maps" class="k">地図</a></td>
+                    <td>普通</td>
+                </tr>
+                <tr>
+                    <td class="j"><a href="https://news.google.com/" class="k">ニュース</a></td>
+                    <td>悪</td>
+                </tr>
+        </tbody> 
+        </table> 
+            <table border="1" class="float">
+                <thead>
+                    <tr>
+                        <th>ランキング</th>
+                        <th>Web名前</th>
+                        <th>アプリ名</th>
+                        <th>評価</th>
+                        <th>画像</th>
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                        <td rowspan="3" class="a">2</td>
+                        <td rowspan="3" class="yahoo">Yahoo</td>
+                        <td class="j"><a href="https://search.yahoo.co.jp/" class="k">検索</a></td>
+                        <td>普通</td>
+                        <td rowspan="3" colspan="3"  ><img src="https://lh3.googleusercontent.com/proxy/FFqWBXDs8p8R0aazd0aRUhJwe_-rYXzlyUBh1w799fYkD5rdjlLkZa97VMQ7vgP_oJgWb1YMD7bz8yfNPHXi-IP1mVJmFITR7Oawkg" class="img-size"></td>                    
+                    </tr>
+                    <tr>
+                        <td class="j"><a href="https://map.yahoo.co.jp/" class="k">地図</a></td>
+                        <td>普通</td>
+                    </tr>
+                    <tr>
+                        <td class="j"><a href="https://news.yahoo.co.jp/" class="k">ニュース</a></td>
+                        <td>最高</td>
+                    </tr>
+                </tbody>
+            </table>
+        <div class="clear"></div>
+    </div>
+        <footer>
+            <p>あなたのお気に入りのサイトはどれですか？</p>
+        </footer>
+    </body>
+</html>
