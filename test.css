@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+.main-size {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.k{
+    color: black;
+}
+
+.j {
+    background-color: chartreuse;
+}
+
+.yahoo {
+   color: red;
+}
+
+.img-size {
+    width: 100px;
+    height: 100px;
+}
+
+.float {
+    float: left;
+    width:50%;
+}
+
+.clear {
+    clear:left;
+}
+
+footer p {
+    margin-top: 25px;
+    font-size: 20px;
+    font-family:initial
+}
+
